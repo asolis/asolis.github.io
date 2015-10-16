@@ -1,0 +1,191 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+body, html {
+	width: 100%;
+	min-width: 450px;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+}
+h5, h6 {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+pre {
+	padding: 15px;
+	margin: 0;
+}
+h1 {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	max-width: 850px;
+}
+.section {
+	background-color: rgb(248, 248, 248);
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+.section .container {
+	padding: 58px 15px 20px 15px;
+}
+.popover-content {
+	padding: 0;
+}
+.popover{
+	max-width:300px;
+}
+.about-section {
+	background-color: rgb(90,90,90);
+	background-color: #333333;
+	color: white;
+	padding-bottom: 25px;
+}
+.project-container {
+	margin-bottom: 20px;
+}
+.thumbnail {
+	border-radius: 0;
+}
+.project-container .thumbnail {
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 140px;
+	padding: 0;
+}
+.project-container .thumbnail .caption {
+	background-color: rgba(90,90,90,.9);
+}
+.project-container .glyphicon {
+	padding-right: 5px;
+}
+.project-container .thumbnail .links {
+	height: 0;
+	overflow: hidden;
+}
+.project-container .thumbnail:hover .links {
+	height: 100%;
+}
+.section-background-image {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #5A5A5A;
+}
+.section-background-image section {
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
+.education-section img {
+	width: 55px;
+	height: 55px;
+}
+.about-details img {
+	height: 1.7em;
+}
+.about-details div {
+	margin-bottom: 6px;
+}
+.contact-details div {
+	margin-bottom: 6px;
+}
+.contact-details img {
+	width: 20px;
+}
+.disclosure {
+	margin-bottom: 20px;
+}
+.things-container .caption {
+	white-space: nowrap;
+	padding: 4px 10px 4px 5px;
+}
+.projects-section {
+	background-image: url(../images/covers/second.jpg);
+}
+.teaching-section {
+	background-image: url(../images/covers/third.jpg);
+}
+.intro-section {
+	background-image: url(../images/covers/first.jpg);
+	height: 60%;
+	background-position-y: -200px;
+}
+.intro-section .name {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 30px;
+}
+.teaching-section .container, .teaching-section .container .row {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+}
+.teaching-section .container .teaching-col1 {
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+.teaching-section .container .teaching-col2 {
+	padding: 55px 0 55px 20px;
+	background-color: rgba(90,90,90,.5);
+}
+.copyright {
+	font-weight: 100;
+	padding: 20px;
+	background-color: #333333;
+	color: white;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px), only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+.intro-section {
+	background-attachment: local;
+	background-size: 100% auto;
+	height: 300px;
+	background-position-y: 0;
+}
+.intro-section .row {
+	padding-bottom: 30px;
+}
+h1 {
+	font-weight: 200;
+}
+.project-container .thumbnail .links {
+	height: 100%;
+	overflow: auto;
+}
+.about-section, .publications-section, .contact-section {
+	font-size: 16px;
+}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+.intro-section {
+	background-attachment: local;
+	background-size: 100% auto;
+	height: 100%;
+	max-height: 500px;
+	background-position-y: 0;
+}
+.intro-section .row {
+	padding-bottom: 100px;
+}
+.project-container .thumbnail .links {
+	height: 100%;
+	overflow: auto;
+}
+}

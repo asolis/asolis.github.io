@@ -1,0 +1,85 @@
+
+@media(min-width:767px) {
+.navbar {
+	padding: 10px 0;
+	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+.top-nav-collapse {
+	padding: 0;
+}
+}
+/* CSS Document */
+.navbar {
+	padding-left: auto;
+	padding-right: auto;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	border-bottom: 1px solid #e7e7e7;
+}
+.navbar .glyphicon {
+	padding-top: 5px;
+	font-size: 18px;
+}
+.navbar .glyphicon-education {
+}
+.navbar-nav {
+	width: 100%;
+	text-align: center;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.navbar-nav > li {
+	float: none;
+	display: inline-block;
+}
+.navbar-nav > li.navbar-right {
+	float: right !important;
+}
+.navbar-default {
+	background-color: #fff;
+	border-color: rgba(194,103,84,0.1);
+}
+.navbar-default .navbar-brand {
+	color: #7a7a7a;
+}
+.navbar-default .navbar-text {
+	color: #7a7a7a;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #7a7a7a;
+	font-size: 13px;
+	height: 50px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	/*background-color: rgba(194,103,84,0.05);*/
+	color: #5c434b;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #c26754;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #ffffff;
+	background-color: #c26754;
+}
+.navbar-default .navbar-toggle {
+	border-color: #c26754;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #c26754;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #7a7a7a;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #7a7a7a;
+}
+.navbar-default .navbar-link {
+	color: #7a7a7a;
+}
+.navbar-default .navbar-link:hover {
+	color: #5c434b;
+}

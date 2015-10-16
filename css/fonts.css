@@ -1,0 +1,173 @@
+/* CSS Document */
+
+.body {
+	font-family: 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a:hover {
+	text-decoration: none;
+}
+.about-details .text {
+	color: #bbb;
+}
+.things-container .text, .contact-section .text, a {
+	color: #34bcec;
+}
+.things-container a:hover, .things-container a:hover .text, .things-container .text:hover {
+	color: rgb(35, 82, 124);
+}
+.things-container a {
+	color: white;
+}
+.contact-section a.social {
+	color: white;
+}
+.contact-section a.social:hover, .contact-section a.social:hover .text, .contact-section .text:hover {
+	color: rgb(35, 82, 124);
+}
+.about-details a.social {
+	color: rgb(90,90,90);
+	color: #333333;
+}
+.about-details a.social:hover, .about-details a.social:hover .text, .about-details .text:hover {
+	color: white;
+}
+h1 {
+	font-weight: 200;
+	letter-spacing: 0.05em;
+	color: white;
+	/*text-shadow: 1px 1px 2px black, 0 0 15px black, 0 0 4px gray;*/
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #33141e;
+}
+h1 span {
+	font-weight: 300;
+}
+h4 {
+	margin: 0 0 30px 0;
+	font-weight: 300;
+	font-size: 15px;
+	color: #CE8576;
+	letter-spacing: 0.15em;
+}
+.about-section {
+	font-weight: 300;
+	letter-spacing: 0.03em;
+	line-height: 25px;
+	padding-bottom: 35px;
+}
+.publications-section {
+	font-weight: 300;
+	letter-spacing: 0.03em;
+	line-height: 20px;
+}
+.publications-section p {
+	margin-bottom: 25px;
+}
+.publications-section h5 {
+	margin: 0;
+	display: inline-block;
+}
+.publications-section h6 {
+	color: rgb(150,150,150);
+	text-align: left;
+}
+.publications-section .glyphicon {
+	padding-left: 10px;
+}
+.publications-section .disclosure {
+	font-size: .85em;
+	color: #808080;
+}
+.projects-section .caption {
+	font-weight: 300;
+	color: white;
+	letter-spacing: 0.03em;
+}
+.projects-section .links {
+	text-align: right;
+	font-size: .85em;
+}
+.projects-section .caption p {
+	margin: 0;
+	text-align: center;
+}
+.project-container .glyphicon {
+	font-size: 1.3em;
+}
+.education-section h5 {
+	font-weight: 600;
+}
+.education-section h6 {
+	font-weight: 400;
+}
+.education-section {
+	font-weight: 400;
+	font-size: 12px;
+}
+.education-section p {
+	padding-bottom: 15px;
+}
+.teaching-section h6 {
+	font-weight: 300;
+}
+.teaching-section hr {
+	margin: 20px 0 40px 0;
+}
+.teaching-section h5, .education-section h5 {
+	font-weight: 600;
+}
+.teaching-section .list-courses div {
+	color: white;
+}
+.teaching-section .list-courses .details {
+	color: #A9A4A4;
+}
+.teaching-section {
+	color: white;
+}
+.contact-section .name {
+	font-weight: 400;
+	letter-spacing: 0.06em;
+	margin-bottom: 5px;
+	color: black;
+}
+.contact-section {
+	font-weight: 300;
+}
+.viv, .viva {
+	font-family: 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.viv {
+	color: #1513bb;
+	color: #5583ff;
+}
+.viva {
+	color: #e90017;
+}
+pre {
+	font-size: 10px;
+	line-height: 12px;
+}
+.things-container img {
+	height: 1em;
+	margin: 1px;
+}
+.about-details a {
+	font-size: 12px;
+}
+.contact-section h6 {
+	color: #767676;
+}
+.acknowledgements {
+	margin-top: 20px;
+	color: #767676;
+	font-size: 12px;
+	font-weight: 200;
+}
+.acknowledgements h6 {
+	color: #767676;
+	margin: 35px 0 10px 0;
+}
