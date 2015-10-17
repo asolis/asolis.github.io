@@ -5,7 +5,7 @@
     	{"image":"images/projects/planar.jpg",	 "title":"Planar Detection", 		"construction": " "},
 		{"image":"images/projects/tracing.jpg",	 "title":"Ray Tracing", 				"page": "https://github.com/asolis/raytracing/wiki"},
 		{"image":"images/projects/approx.jpg",	 "title":"Piecewise Approximation", "page": "https://github.com/asolis/curveFitting/tree/master"},
-		{"image":"images/projects/lines.jpg",	 "title":"Line Segment Intersections", "construction": " "},
+		{"image":"images/projects/lines.jpg",	 "title":"Line Segment Intersections", "page": "https://github.com/asolis/lineIntersections"},
 		{"image":"images/projects/corners.jpg",	 "title":"Corner Extraction", 			"construction": " "},
 		{"image":"images/projects/segments.jpg",	 "title":"Line Extraction", 				"construction": " "}
 ]
