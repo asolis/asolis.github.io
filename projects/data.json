@@ -3,7 +3,7 @@
     	{"image":"images/projects/3D.jpg",		 "title":"3D Object Detection", 		"construction": " "},
     	{"image":"images/projects/skeleton.jpg", "title":"Skeleton Pruning", 		"construction": " "},
     	{"image":"images/projects/planar.jpg",	 "title":"Planar Detection", 		"construction": " "},
-		{"image":"images/projects/tracing.jpg",	 "title":"Ray Tracing", 				"construction": " "},
+		{"image":"images/projects/tracing.jpg",	 "title":"Ray Tracing", 				"link": "https://github.com/asolis/raytracing/wiki"},
 		{"image":"images/projects/approx.jpg",	 "title":"Piecewise Approximation", "construction": " "},
 		{"image":"images/projects/lines.jpg",	 "title":"Line Segment Intersections", "construction": " "},
 		{"image":"images/projects/corners.jpg",	 "title":"Corner Extraction", 			"construction": " "},
