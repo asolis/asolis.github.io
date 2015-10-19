@@ -47,6 +47,10 @@ h1 {
 	color: white;
 	padding-bottom: 25px;
 }
+
+.about-section h4{
+	margin-bottom:15px;
+}
 .project-container {
 	margin-bottom: 20px;
 }
