@@ -1,4 +1,5 @@
 [
+		{"image":"images/projects/vivavideo.jpg",	 "title":"vivaVideo", 		"page": "https://github.com/asolis/vivaVideo/wiki"},
 		{"image":"images/projects/tracking.jpg",	 "title":"Long-term Tracking", 		"construction": " "},
     	{"image":"images/projects/3D.jpg",		 "title":"3D Object Detection", 		"construction": " "},
     	{"image":"images/projects/skeleton.jpg", "title":"Skeleton Pruning", 		"construction": " "},
