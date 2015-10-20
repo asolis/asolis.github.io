@@ -155,6 +155,16 @@ h1 {
 	color: white;
 }
 
+.carousel-indicators, .carousel-caption {
+	bottom: -20px;
+}
+.carousel .item {
+	min-height:500px;
+}
+.carousel {
+	border: none;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px), only screen and (min-device-width : 375px) and (max-device-width : 667px) {
 .intro-section {
 	background-attachment: local;

@@ -171,3 +171,17 @@ pre {
 	color: #767676;
 	margin: 35px 0 10px 0;
 }
+
+.carousel-control .glyphicon, .carousel-caption{
+	color: #34bcec;
+}
+.carousel-indicators li{
+	border-color: #34bcec;
+}
+.carousel-indicators li.active{
+	background-color: #34bcec;
+}
+.carousel-indicators li.active{
+	margin-left:10px;
+	margin-right:10px;
+}

@@ -3,13 +3,14 @@
 $(document).ready(function () {
 	$('.navbar a').click(core.viewPageSection);
 	$('.bibtex').bibtexjs();
-	$('.projects').projectsjs();
 	$('.things-container a').click(core.downloadResource);
 	$('[data-toggle="tooltip"]').tooltip();
 	$('a.social[target="download"]').click(core.downloadCV);
 	$('a.social[target!="download"]').click(core.viewSocial);
 	$('.contact-details a:not(.social)').click(core.viewSocial);
 	$('.thesis_item a').click(core.viewPublication);
+	$('.projects').projectsjs();
+	$('.resources').resources();
 });
 
 var checkIntroImage = function() {
