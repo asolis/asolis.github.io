@@ -5,26 +5,33 @@
     $.fn.hslider = function() {
  	
 		var transform = {
-			construction: [{"tag":"span", "html":'Under Construction '},
-						   {"tag":"span","type":"button","class":"glyphicon glyphicon-wrench", "html":'  '}],
-			page:{"tag":"a","type":"button","class":"glyphicon glyphicon-globe",
-					"href":"${page}","html":'  ',"data-title":"${title}$", 'target':'project', 'onclick':core.viewProject},
-			projects: {"tag":"div","class":"col-sm-4 col-md-4 col-xs-6 ","children":[
-							{"tag":"div","class":"thumbnail",
+			construction: {"tag":"div","class":"thumbnail",
 								"style":"background-image:url(${image});","children":[
 								{"tag":"div","class":"caption","children":[
 									{"tag":"h5","html":"${title}"},
-									{"tag":"div","class":"links","children": function () {
-											var children = [];
-											if (this.construction)
-												children.push(transform.construction);
-											if (this.page)
-												children.push(transform.page);
-											return json2html.transform(this, children, {'events':true});
-										} }
+									{"tag":"div","class":"links","children": 
+										[{"tag":"span", "html":'Under Construction '},
+						  			    {"tag":"span","type":"button","class":"glyphicon glyphicon-wrench", "html":'  '}]
+									}
+								  ]}
+							]},
+			page: {"tag":"a", "href":"${page}", "data-title":"${title}$", 'target':'project', 'onclick':core.viewProject, "children":[
+								{"tag":"div","class":"thumbnail",
+								"style":"background-image:url(${image});","children":[
+								{"tag":"div","class":"caption","children":[
+									{"tag":"h5","html":"${title}"},
+									{"tag":"div","class":"links","children": [
+										{"tag":"span","type":"button","class":"glyphicon glyphicon-globe", "href":"${page}","html":'  '}
+									]}
 								  ]}
 							  ]}
 							]},
+			projects: {"tag":"div","class":"col-sm-4 col-md-4 col-xs-6 ","children":function(){
+						if (this.page)
+							return json2html.transform(this, transform.page, {'events':true});
+						else
+							return json2html.transform(this, transform.construction);
+			}},
 			indicator: {"tag":"li","data-target":"#carousel-example-generic","data-slide-to":"${number}","class":"${active}","html":""},
 			caption:{"tag":"div","class":"carousel-caption","html":"Page: ${page} / ${totalPages}"},
 			slide:{"tag":"div","class":"item ${active}","children":function(){
@@ -62,7 +69,7 @@
 				var slider = {};
 				slider.pages = [];
 				slider.projects = [];
-				var step = 9;
+				var step = 12;
 				var totalPages = Math.ceil(json.length/step);
 				
 				for (var i = 0; i < totalPages; i++)

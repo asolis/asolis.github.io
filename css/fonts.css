@@ -9,7 +9,7 @@ a:hover {
 .about-details .text {
 	color: #bbb;
 }
-.things-container .text, .contact-section .text, a {
+.things-container .text, .contact-section .text, a , .projects a .thumbnail *{
 	color: #34bcec;
 }
 .things-container a:hover, .things-container a:hover .text, .things-container .text:hover {
@@ -181,7 +181,8 @@ pre {
 .carousel-indicators li.active{
 	background-color: #34bcec;
 }
-.carousel-indicators li.active{
-	margin-left:10px;
-	margin-right:10px;
+.carousel-indicators li.active, .carousel-indicators li{
+	margin-left:15px;
+	margin-right:15px;
+	
 }

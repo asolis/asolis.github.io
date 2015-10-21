@@ -185,6 +185,9 @@ h1 {
 .about-section, .publications-section, .contact-section {
 	font-size: 16px;
 }
+.carousel .item {
+	min-height:800px;
+}
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
