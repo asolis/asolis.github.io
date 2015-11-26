@@ -351,7 +351,8 @@ function BibtexParser() {
 										children.push(transform.publisher);
 									if (this.year)
 										children.push(transform.year);
-									children.push(transform.bibtex);
+									if (!this._hidebibtex)
+										children.push(transform.bibtex);
 									if (this._download)
 										children.push(transform.download);
 									return json2html.transform(this, children, {'events':true});	

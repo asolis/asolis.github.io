@@ -1,6 +1,7 @@
 // JavaScript Document
 
 $(document).ready(function () {
+	
 	$('.navbar a').click(core.viewPageSection);
 	$('.bibtex').bibtexjs();
 	$('.things-container a').click(core.downloadResource);
