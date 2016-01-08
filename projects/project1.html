@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="Andres Solis Montero">
+<link rel="icon" href="favicon.ico">
+<title>Skeleton pruning by contour approximation and the integer medial axis transform</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/template.css"  rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header"> <a href="http://www.site.uottawa.ca/research/viva/"> <img  class="navbar-brand"  alt="Brand" src="images/viva-logo.png"> </a> <span  class="navbar-brand brand-text"  alt="Brand" >Research Lab </span> </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <!-- <li class="active"><a href="http://www.site.uottawa.ca/research/viva/">Research Lab</a></li>-->
+      </ul>
+      <a href="http://engineering.uottawa.ca/eecs/"><img class="navbar-text navbar-right" src="images/uottawa_hor_black.png"/></a> </div>
+    
+    <!--/.nav-collapse --> 
+  </div>
+</nav>
+<div class="container">
+  <div class="starter-template">
+    <div class="row">
+      <div class="col-lg-7 col-md-7 col-xs-7">
+        <h2>Skeleton pruning by contour approximation and the integer medial axis transform</h2>
+        <a  target="newtab" href="http://www.sciencedirect.com/science/article/pii/S0097849312000684"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Computers & Graphics, Elsevier, August 2012. </a> <br>
+        <span class="pull-right small">Posted: Jan 7, 2015 </span>
+        <hr>
+        
+        <h4>Abstract</h4>
+        <p>
+        We present a new shape skeleton pruning algorithm based on contour approximation and the integer medial axis. The algorithm effectively removes unwanted branches, conserves the connectivity of the skeleton and respects the topological properties of the shape. The algorithm is robust to significant boundary noise and to rigid shape transformations, it is fast and easy to implement. High accuracy reconstruction of the shape is possible from the generated skeleton by means of the integer medial axis transform. Our algorithm also produces a vector representation of the skeleton. We compare our algorithm with state-of-the-art techniques for computing stable skeleton representations of shapes including pruning. We test and compare our solution using the MPEG-7 CE Shape-1 Part B dataset looking for skeleton connectivity, complexity, parameter selection, and accuracy/quality of the outcome. The experimental results show that our solution outperforms existing solutions according to these criteria.
+        </p>
+        <br>
+        
+        <!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="data/pruning/demo.mov"></iframe>
+</div>
+<span class="small">Media 1. Examples and description of our pruning algorithm.</span>
+        <br>
+        <br>
+        
+        <h4>Contributions</h4>
+        <p>
+        <ul>
+        	<li> Skeleton pruning by contour approximation and the integer medial axis transform</li>
+            <li> The algorithm conserves the skeleton connectivity and respects the topology of the shape</li>
+            <li> Fast algorithm that can be used in automatic and real-time applications</li>
+            <li> The algorithm is robust to significant boundary noise and to rigid shape transformations</li>
+            <li> High accuracy reconstruction of the original shape is possible</li>
+			<li> Produces a vector representation of the skeleton</li>
+        </ul>
+        </p>
+        
+        
+        <br>
+        <h4>Results</h4>
+        <p>
+        The results obtained with our algorithm are stable with respect to boundary noise and rigid transformations (i.e., noisy and rotated versions of an image produce the same clean skeleton representation as the original image). Noisy branches are removed without loss of skeleton connectivity and the pruned skeleton conserves the topological properties of the shape. The algorithm’s complexity is O(kn + N); where k is the number of knots detected during the contour approximation, n is the contour length and N is the image size. It is therefore an efficient fast solution. The parameter choice has little influence on outcome, allowing the use of the same parameters for the complete test dataset of 1400 images.<p>
+        <p> Because our algorithm is robust to noise and rigid transforma- tions and it produces consistent high-quality results with the same input parameters, it can be used in semi-automatic or even automatic applications. The broad range of possible applications is also helped by the algorithm’s speed and relative ease of implementation. Because our algorithm produces a connected skeleton that is a subset of the integer medial axis of the noisy shape, the shape can be reconstructed from the skeleton using the feature transform. It should also be noted that the integer medial axis can be found efficiently in 3D and we would like to investigate an extension of our algorithm to 3D in future work.</p>
+       
+        
+        <br><br>
+        <p>
+        <img class="img-thumbnail" src="data/pruning/examples.png"/>
+        <span class="small"> Figure 1. Output examples from proposed algorithm. The input parameter selection was the same for the whole dataset. The vectorization step has been skipped for display purposes.</span>
+        </p>
+        
+        <br><br>
+        <p>
+        <img class="img-thumbnail" src="data/pruning/examples2.png"/>
+        <span class="small">Figure 2.Output of our algorithm for regular and noisy images of same image class in the MPEG-7 dataset. Last is the same as middle column but with the contour approximation displayed. Parameters are unchanged. </span>
+        </p>
+        <br><br>
+        <p>
+        <img class="img-thumbnail" src="data/pruning/examples3.png"/>
+       <span class="small">	Figure 3.  Examples of our proposed algorithm of shapes with holes using the same parameter selection.</span>
+       </p>
+        <br>
+        <br>
+      </div>
+      
+      <div class="col-lg-1 col-md-1 col-xs-1">
+      </div>
+      
+      <div class="col-lg-4 col-md-4 col-xs-4"> <br>
+        <h4>Graphical Abstract</h4>
+        <p > <img class="img-thumbnail" src="data/pruning/GraphicalAbstract.png"/> </p>
+        <br>
+        <h4>Authors</h4>
+        <p >
+        
+        <ul >
+          <li><a href="http://www.solism.ca/">Andr&eacute;s Sol&iacute;s Montero </a></li>
+          <li><a href="http://www.site.uottawa.ca/~jlang/">Jochen Lang</a></li>
+        </ul>
+        </p>
+        <br>
+        <h4>Acknowledgment</h4>
+        <p >We gratefully acknowledge the financial support from the Natural Sciences and Engineering Research Council of Canada  (<a src="http://www.nserc-crsng.gc.ca/index_eng.asp">NSERC</a>). </p>
+        <br>
+        <h4>Resources</h4>
+        <p >
+        
+        <ul >
+          <li> Presentation
+            <embed  height="240px" src="data/pruning/presentation.pdf" type="application/pdf"></embed>
+          </li>
+          <li>GitHub Respository</li>
+        </ul>
+        </p>
+        
+        <br>
+        <h4>Bibtex</h4>
+        <p >
+<pre>@article{ solisetal2012skeleton,
+	title=Skeleton pruning by contour approximation and the integer medial axis transform,
+	author=Andrés Solís Montero, Jochen Lang,
+	journal=Computers & Graphics,
+	year=2012,
+	publisher=Elsevier,
+}</pre>
+        </p>
+        
+      </div>
+    </div>
+  </div>
+  <!-- end of column 2--> 
+</div>
+<!-- end of column 1 --> 
+<!-- /.container -->
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">&copy; 2015 All Rights Reserved.</p>
+  </div>
+</footer>
+<!-- Bootstrap core JavaScript --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.2.min.js"></script> 
+<script src="js/bootstrap.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+</body>
+</html>

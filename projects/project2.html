@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="Andres Solis Montero">
+<link rel="icon" href="favicon.ico">
+<title>Framework for Natural Landmark-based Robot Localization</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/template.css"  rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header"> <a href="http://www.site.uottawa.ca/research/viva/"> <img  class="navbar-brand"  alt="Brand" src="images/viva-logo.png"> </a> <span  class="navbar-brand brand-text"  alt="Brand" >Research Lab </span> </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <!-- <li class="active"><a href="http://www.site.uottawa.ca/research/viva/">Research Lab</a></li>-->
+      </ul>
+      <a href="http://engineering.uottawa.ca/eecs/"><img class="navbar-text navbar-right" src="images/uottawa_hor_black.png"/></a> </div>
+    
+    <!--/.nav-collapse --> 
+  </div>
+</nav>
+<div class="container">
+  <div class="starter-template">
+    <div class="row">
+      <div class="col-lg-7 col-md-7 col-xs-7">
+        <h2>Framework for Natural Landmark-based Robot Localization</h2>
+        <a  target="newtab" href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6233133&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6233133"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Computer and Robot Vision Conference (CRV), Toronto, Canada, May 2012. </a> <br>
+        <span class="pull-right small">Posted: Jan 7, 2015 </span>
+        <hr>
+        
+        <h4>Abstract</h4>
+        <p>
+        We present a framework for vision based robot localization using natural planar landmarks. Specifically, we demonstrate our framework with planar targets using Fern classifiers that have been shown to be robust against illumination changes, perspective distortion, motion blur, and occlusions. We add stratified sampling in the image plane
+to increase robustness of the localization scheme in cluttered environments and on-line checking for false detection of targets to decrease false positives. We use all matching points to improve pose estimation and an off-line target evaluation strategy to improve a priori map building. We report experiments demonstrating the accuracy and speed of localization. Our experiments entail synthetic and real data. Our framework and our improvements are however more general and the Fern classifier could be replaced by other techniques.
+        </p>
+        <br>
+        <!-- 16:9 aspect ratio 
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="data/tracker/video.mp4"></iframe>
+</div>
+<span class="small">Media 1. Video sequences comparing sKCF (i.e., light blue) and KCF (i.e., yellow). The white bounding box represents the human annotated ground truth of the video sequences. The algorithms outputs have been synchronized in time for displaying purposes. The sKCF implementation showed a speed up of 2.8x compared to KCF.</span>-->
+        <br>
+        <h4>Contributions</h4>
+        <p>
+        <ul>
+        	<li> Framework for robot localization and target evaluation using natural landmarks independent of the classifier and could be integrated with other robot localization schemes</li>
+            <li> Practical techniques to improve the performance of the scheme</li>
+        	<li> An experimental evaluation of the Fern classifier for robot localization</li>
+            <li> Our framework is able to double the true rate of detection while reducing false target detection without affecting execution time</li>
+            <li> Improved the accuracy of localization by up to 50%</li>
+        </ul>
+        </p>
+        
+        
+        <br>
+        <h4>Results</h4>
+        <p>
+       The target evaluation process consists of two steps. First, we train the system using one fronto-parallel image of the target. The feature database is created using the Fern classifier of the most stable feature points of the target image. Once the learning process has finished, we use the information of the camera to project the target from different cameras views by setting the distance from the camera to the target and rotating around the targets center. The background of the generated image is filled with random noise and blur. Then, for each generated frame we evaluate the target according to detection rate, re-projection error, pose estimation and camera location, just as in our synthetic data simulation. These values serve as a prediction of the quality of the target, i.e., an indication of the accuracy to expect when the particular target would be employed for robot localization. <p>
+        <p> We validated our framework by analyzing the impact of each technique applied to the main scheme. The framework was tested using real scenarios and empirical evaluations. 
+        For the real data experiment we placed four targets and positioned the camera pointing towards their center at different ranges and view angles. Accurate ground truth for the pose of the camera is not available to us, therefore we evaluate the accuracy in terms of quantities that can be precisely measured. We place multiple targets at precisely known relative position and orientation from each other. We estimate the pose of the camera between two or more targets and then we calculate the difference between those poses. In a common coordinate system, the difference of the poses will be exactly the spatial transformation between the targets. </p>
+        <p> For empirical evaluations we render images by projecting the target into an image plane from different angles and depths. We use the camera’s intrinsic parameters obtained in the calibration of the real camera through the camera module of our implementation. We use the synthetic images to test for planar target detection accuracy and the subsequent pose estimation. In the synthetic images we know the exact projection of the target given the orientation and position of the camera. </p>
+        <br><br>
+        <p>
+        <img class="img-thumbnail" src="data/planar/results.png"/>
+        <span class="small"> Figure 1. Experimental evaluation of our framework using Fern classifier resulted in an average translation and rotation error of 2.7cm and 2.5 degrees in ranges from 1 to 3 meters. We compared the relative translations and rotations between the four targets while moving the camera freely.</span>
+        </p>
+        
+        <br><br>
+        <p>
+        <img class="img-thumbnail" src="data/planar/T.png"/>
+        <img class="img-thumbnail" src="data/planar/R.png"/>
+        <span class="small">Figure 2. Empirical target evaluation of the four targets used in Figure 1. Translation and rotation error show the instability of Target 01 and Target 11 compared with the other two. In the experiment, we simulate the movement of the camera in front of the target from 0.8 m to 2.1 m. The average translation error for the complete set is 2.85 cm and 1.45◦ of average rotation error. </span>
+        </p>
+        
+        
+        <br><br>
+        <p>
+        <img class="img-thumbnail" src="data/planar/detectionr.png"/>
+        <span class="small">Figure 3. Improved true detection rate of the system by including stratified sampling into the framework scheme while decreasing false detection.  </span>
+        </p>
+        
+        <br><br>
+        <p>
+        <img class="img-thumbnail" src="data/planar/samplingnc.png"/>
+        <span class="small">Figure 4. Example of planar target detection when the target is not the main component in the view. Top row shows the stratified sampling approach. </span>
+        </p>
+        
+        <br><br>
+        <p>
+        <img class="img-thumbnail" src="data/planar/matchin.png"/>
+        <span class="small">Figure 5. The use of matching points improved the accuracy of localization up to 50% compared to only using the target corners.  </span>
+        </p>
+        
+        <br><br>
+        <p>
+        <img class="img-thumbnail" src="data/planar/mp.cp.png"/>
+        <span class="small">Table 1. Comparision results between matching points (MP) and corners points (CP) at 2 and 3 meters of distance from the target. </span>
+        </p>
+      </div>
+      
+      <div class="col-lg-1 col-md-1 col-xs-1">
+      </div>
+      
+      <div class="col-lg-4 col-md-4 col-xs-4"> <br>
+        <h4>Graphical Abstract</h4>
+        <p > <img class="img-thumbnail" src="data/planar/target.png"/> </p>
+        <br>
+        <h4>Authors</h4>
+        <p >
+        
+        <ul >
+          <li><a href="http://www.solism.ca/">Andr&eacute;s Sol&iacute;s Montero </a></li>
+          <li><a href="http://www.site.uottawa.ca/~jlang/">Jochen Lang</a></li>
+          <li><a href="http://www.site.uottawa.ca/~laganier/">Robert Lagani&egrave;re</a></li>
+          <li><a href="http://cohortsys.com">Jeremy James</a>, <b>Partner (Cohort Inc.)</b></li>
+        </ul>
+        </p>
+        <br>
+        <h4>Acknowledgment</h4>
+        <p >We gratefully acknowledge the financial support from the Natural Sciences and Engineering Research Council of Canada (<a src="http://www.nserc-crsng.gc.ca/index_eng.asp">NSERC</a>)  and from <a href="http://cohortsys.com">Cohort Systems Inc</a>. </p>
+        <br>
+        <h4>Resources</h4>
+        <p >
+        
+        <ul >
+          <li> Presentation
+            <embed  height="240px" src="data/planar/presentation.pdf" type="application/pdf"></embed>
+          </li>
+          <li> Poster
+            <embed  height="240px" src="data/planar/poster.pdf" type="application/pdf"></embed>
+          </li>
+          <li>GitHub Respository</li>
+        </ul>
+        </p>
+        
+        <br>
+        <h4>Bibtex</h4>
+        <p >
+<pre>@inproceedings{ solisetal2012framework,
+	title=Framework for natural landmark-based robot localization,
+	author=Andrés Solís Montero, Hicham Sekkati, Jochen Lang, Robert Lagani{ère, Jeremy James},
+	booktitle=IEEE Ninth Conference on Computer and Robot Vision (CRV) ,
+	pages=131-138,
+	year=2012,
+}</pre>
+        </p>
+        
+      </div>
+    </div>
+  </div>
+  <!-- end of column 2--> 
+</div>
+<!-- end of column 1 --> 
+<!-- /.container -->
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">&copy; 2015 All Rights Reserved.</p>
+  </div>
+</footer>
+<!-- Bootstrap core JavaScript --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.2.min.js"></script> 
+<script src="js/bootstrap.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+</body>
+</html>

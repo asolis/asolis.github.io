@@ -1,9 +1,9 @@
 [
 		{"image":"images/projects/vivavideo.jpg",	 "title":"vivaVideo", 		"page": "https://github.com/asolis/vivaVideo/wiki"},
-		{"image":"images/projects/tracking.jpg",	 "title":"Long-term Tracking", 		"construction": " "},
-    	{"image":"images/projects/3D.jpg",		 "title":"3D Object Detection", 		"construction": " "},
-    	{"image":"images/projects/skeleton.jpg", "title":"Skeleton Pruning", 		"construction": " "},
-    	{"image":"images/projects/planar.jpg",	 "title":"Planar Detection", 		"construction": " "},
+		{"image":"images/projects/tracking.jpg",	 "title":"Long-term Tracking", 		"page": "projects/project4.html"},
+    	{"image":"images/projects/3D.jpg",		 "title":"3D Object Detection", 		"page": "projects/project3.html"},
+    	{"image":"images/projects/skeleton.jpg", "title":"Skeleton Pruning", 		"page": "projects/project1.html"},
+    	{"image":"images/projects/planar.jpg",	 "title":"Planar Detection", 		"page": "projects/project2.html"},
 		{"image":"images/projects/tracing.jpg",	 "title":"Ray Tracing", 				"page": "https://github.com/asolis/raytracing/wiki"},
 		{"image":"images/projects/approx.jpg",	 "title":"Piecewise Approximation", "page": "https://github.com/asolis/curveFitting/wiki"},
 		{"image":"images/projects/lines.jpg",	 "title":"Line Segment Intersections", "page": "https://github.com/asolis/lineIntersections/wiki"},

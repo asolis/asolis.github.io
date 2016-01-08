@@ -1,0 +1,62 @@
+/* CSS Document */
+body {
+  padding-top: 85px;
+}
+
+.navbar {
+	background-color: rgb(248, 248, 248);
+	border-bottom-color: rgb(231, 231, 231);
+}
+.navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 40px;
+}
+
+.navbar-brand {
+	height: 75px;
+}
+
+.navbar-right {
+	height: 30px;
+	margin: 32px 30px 0px 0px;
+}
+.navbar-default .navbar-nav > li.active > a {
+    
+}
+
+.navbar-default .nav li a.selected,
+.navbar-default .nav li a:hover,
+.navbar-default .nav li.active a:hover {
+    background-color: #2A6496;
+}
+.brand-text{
+	line-height: 20px;
+    padding-top: 44px;
+}
+pre {
+	font-size:9px;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: rgb(248, 248, 248);
+  border-top-color: rgb(231, 231, 231);
+  border:1px solid rgb(231, 231, 231);
+}
+
+.small{
+	color:#7E7E7E;
+}
+p {
+	text-align:justify;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.starter-template {
+  
+}
+
