@@ -1,5 +1,5 @@
 [
-		{"image":"images/projects/annotate.jpg",	 "title":"Ground truth annotations", 				"page": "https://github.com/asolis/Annotate/wiki"},
+		{"image":"images/projects/annotate.jpg",	 "title":"Ground-truth annotations", 				"page": "https://github.com/asolis/Annotate/wiki"},
 		{"image":"images/projects/hdf.jpg",	 "title":"OpenCV HDF5 serialization", 				"page": "https://github.com/asolis/binaryStorage"},
 		{"image":"images/projects/reid.jpg",	 "title":"People reidentification", 				"construction": " "},
 		{"image":"images/projects/vivavideo.jpg",	 "title":"vivaVideo", 		"page": "https://github.com/asolis/vivaVideo/wiki"},
