@@ -12,6 +12,11 @@ a:hover {
 .things-container .text, .contact-section .text, a , .projects a .thumbnail *{
 	color: #34bcec;
 }
+.thesis
+{
+	font-size:14px;
+	text-align: justify;
+}
 .things-container a:hover, .things-container a:hover .text, .things-container .text:hover {
 	color: rgb(35, 82, 124);
 }
@@ -133,6 +138,13 @@ h4 {
 }
 .contact-section {
 	font-weight: 300;
+}
+.urlpres{
+	font-weight:300;
+}
+.thesis
+{
+	font-size:14px;
 }
 .viv, .viva {
 	font-family: 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
