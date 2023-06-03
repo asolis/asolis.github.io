@@ -1,0 +1,216 @@
+OVERVIEW
+Professional Overview:
+A creative leader and senior data scientist with a Ph.D. in Computer Science, specializing
+in Computer Vision, Image Processing, Machine Learning and Deep Learning solutions
+with a solid mathematical, data management, and analytics background. Published
+author with over 1000 citations and technical reviewer for over nine years. My experience
+brings invaluable insight into analyzing, processing, and reporting meaningful reports and
+decisions and visualizing data. I am a versatile researcher with a broad knowledge of
+programming languages, databases, and data structures. I have taught courses in
+computer science, programming languages, and advanced programming concepts for over ten years at the University Level.
+
+1.	Management and Team Lead
+
+Over eight years of management experience and team leader who performs and delegates multiple duties while motivating staff, making sound decisions, and working with
+managers and staff at all levels of responsibility. Excellent communication skills with a
+creative mindset. I like encouraging collaborative work environments, stimulating group
+creativity and promoting knowledge sharing. I have extensive experience delivering
+technology products from conception to delivery while allocating resources and timelines
+successfully.
+
+2.	Full-Stack Software Developer & DevOps
+
+Over 15+ years of experience as a full-stack software developer with vast experience in
+Cyber Security, DevOps, and Cloud Native Solutions. A developer who enjoys simplicity
+in creative design code with a creative eye for UX and UI design. I am a seasoned
+programmer with experience in multiple programming paradigms, data structures and
+algorithms. I have architected, led, and deployed various AI Cloud solutions and products
+from conception to delivery. I specialized in Computer Vision, Machine Learning, Deep
+Learning, CNN, Business Analytics, and Information Extraction. I have deployed products
+with the following tech stack: Python, C++, Java, Web technologies, OAuth, SQL and
+NoSQL databases, Azure Cloud, Kubernetes, and Containerization (i.e., Docker).
+
+
+WORK EXPERIENCE
+
+Feb 2020 – Present 
+Statistics Canada, Data Science Division (DScD)
+Lead Data Scientist.
+Technical Lead of several AI projects under the Data Science Division / Product Delivery
+Section for clients such as Public Health Agency of Canada (PHAC), Health Canada
+(HC), and Statistics Canada (StatCan). Working on product delivery, architecture,
+production planning, data pipelines, capacity building, ML modelling, deep learning, and cloud
+integration (i.e., Kubernetes and Microsoft Azure) for the following projects: Cyclops,
+COVID-19 PPE - EPI Model, Frontier Counts, Sedar App, and Hydra.
+
+
+2016 – 2020
+Tempo Analytics Inc. 
+Co-founder, CTO & Project Manager, Research & Development
+Architect, team technical lead in charge of developing a server-client cloud application to deliver the speed of service time statistics for the Quick Service Industry. In charge of conceptualizing and building novel computer vision products using machine learning and deep learning neural networks for customer detection, people re-identification, and metric learning. Allocating resources, tasks and defining timelines and milestones while communicating results to our stockholders and clients. Manage a team of software engineers, Master, and Ph.D. candidates to build the right solutions for our product. Systematically generating progress reports and analytics tools to produce business intelligence for stakeholders and clients.
+
+
+2010-2016
+University of Ottawa
+Research Assistant, Computer Vision Software Developer
+Responsible for writing research papers, presenting research findings, and develop computer vision and machine learning software to test and validate the results. Research on shape analysis, object detection and tracking solutions for augmented reality, robot localization, and surveillance applications.
+
+
+2011-2012
+Proximify 
+Senior Web Developer 
+Design and development of a javascript engine powering UniWeb and CCV Sync. Proximify is a cloud-based software for academic institutions and grant agencies. Envisioning and building a research network tool for creating and maintaining your Canadian Common CVs.
+
+
+2009-2011
+Hegyi Geomatics International Inc. 
+Design and development of tools for a GIS framework related to the forest industry. In charge of creating Image analysis tools of forest stands using high resolution and Landsat imagery to monitor change, identify problems and perform forecasting. Analysis and visualizations were displayed on top of the NASA WorldWind 3D mapping application.
+
+
+2008-2011
+University of Ottawa
+Research Assistant, Computer Vision Software Developer
+Responsible for writing research papers, presenting research findings, and develop computer vision software to test and validate the results. Research on image processing techniques to extract relevant features from images.
+
+2006-2008
+Navaera USA LLC 
+Software Developer 
+Creating a web crawler and multi-platform tools for automatic clustering of documents from the web, based on their content and metadata (Java, C\#, and Python).
+
+2006-2008
+Network Administrator, Software Developer
+University of Havana, Cuba
+IT Team leader for the main building of the University of Havana. Design, development, and validation of network administration tools for user monitoring, domain login, email access, and internet quota management. Provided network support and IT services.
+
+
+TEACHING EXPERIENCE 
+
+University of Ottawa (2009-2015)
+1.	Programming Paradigms. (CSI2120), Winter 20 { 15 | 11 } . 
+2.	Operative Systems (CSI 3131), Summer 2015. 
+3.	Advanced Programming Concepts in C++{11} (CSI 2372). Fall 20 { 14 | 12 | 10 } . 
+4.	Introduction to Computing I & II (ITI 11 { 20 | 21 } - Python), Fall 2015. 
+5.	Introduction to Computing I & II (ITI 11 { 20 | 21 } - Java), Winter 20 { 14 | 13 } 
+6.	Computing Concepts for Business (CSI1306). Fall 2009. 
+
+University of Havana(2006-2008)
+7.	Network Administration in GNU/Linux, Fall 200 { 7 | 8 } 
+8.	Object Oriented Programming with Java and C#, Summer 200 { 8 | 7 } . 
+9.	SQL and Relational Database Model Concepts, Fall 2005.
+
+
+EDUCATION
+
+2010-2016 Doctor of Philosophy in Computer Science. GPA: 10.0/10.0
+Thesis: Efficient Feature extraction for Shape Analysis, Object Detection and Tracking.
+Robust feature representations to aid shape analysis, object detection and tracking.
+Supervisors: Prof. Jochen Lang, & Prof. Robert Laganiere 
+
+2009-2010 Master of Computer Science. GPA: 10.0/10.0
+Thesis: Towards Feature Detection based on Morphology of Objects on Images.
+Extracting lines and corners from images based on the morphology of objects.
+Supervisor: Prof. Amiya Nayak
+
+2001-2006 Bachelor of Computer Science, Minor in Mathematics. GPA: 4.56/5.0 
+(Magna Cum Laude)
+Thesis: Diskless Cluster: Parallel and Distributed Systems
+Bootable Cluster LiveCD based on Debian GNU/Linux distribution.
+Supervisor: Prof. Joel de la Noval 
+
+LICENSES & CERTIFICATIONS 
+
+Linux Foundation 2022
+1.     Kubernetes Certified Application Developer (CKAD) Cred ID: LF-dw7drk0k9g
+
+Udemy 2022
+1.     Kubernetes Certified Application Developer (CKAD) Cred ID: UC-5b25a18-34bf-446d800f-26c3e7d97821
+
+Coursera 2019
+1.	Deep Learning Specialization. Cred ID: G8YPRSBRUR4X 
+2.	Structuring Machine Learning Projects. Cred ID: 5D9RY2485Z4G 
+3.	Sequence Models. Cred ID: GCJHGKVL6ZLL 
+4.	ConvNN (i.e., LeNet, AlexNet, Go ogleNet, VGG, ResNets). Cred ID: NQNLA6AYQ7NM 
+5.	Neural Networks and Deep Learning. Cred ID: XJPXEXXMSB8K 
+6.	Hyperparameter tuning, Regularization and Optimization Cred ID: XFSWVLMMR4KM
+
+Shawacademy 2018
+1.	Professional Diploma in Photography (EQF Level 5) 
+
+
+TECHNICAL REVIEWER – JOURNALS & CONFERENCES 
+
+1.	IEEE Transactions on Instrumentation & Measurement. TIM 20 { 16 | 17 | 18 } . 
+2.	IEEE Transactions on Image Processing. TIP 2015. 
+3.	IEEE International Conference on Multimedia and Expo. ICME 2013. 
+4.	IEEE International Conference on Robotics and Automation. ICRA 2013. 
+5.	IEEE International Conference on Multimedia and Expo. ICME 2012. 
+6.	IEEE International Conference on Multimedia and Expo. ICME 2011. 
+7.	7th IEEE International Conference on Mobile Ad-ho c and Sensor Systems. MASS 201
+
+
+
+HONORS & AWARDS 
+2022 Award of Excellence: Innovation. Statistics Canada
+2020 Oustanding Contribution Award. Statistics Canada
+2016 NSERC Engage Grant Program with Ross Video. 
+2016 Best real-time tracking method VOT Challenge 2015, Chile 
+2015 NSERC Engage Grant Program with Thales Canada. 
+2015 NSERC Engage Grant Program with You.i Labs. 
+2014 NSERC Engage Grant Program with Cohort Systems Inc. 
+2012 NSERC CRD Grant with Pulse Microsystems Ltd. 
+2011 International Admission Scholarship from University of Ottawa. 
+2010 Ontario Centres of Excellence Grant with Hegyi Geomatics International Inc. 
+2010 Project: Green Earth (GIS). Excellence Scholarship from University of Ottawa. 
+2009 Ontario Centres of Excellence Grant with Hegyi Geomatics International Inc. 
+2009 Project: Green Earth (GIS). MITACS Accelerate Internship Program for graduate and postdoctoral fellows. 
+2009 Project: Advanced Tools for Forest Inventory and Management. 
+2006 Magna cum laude graduate as Bachelor in Computer Science
+
+Photography:
+	2019: Best Exterior Photo, First Place, Doors Opens/Portes Ouvertes by City of Ottawa
+2019: Grand Prize Winner, Canada in One City Photo Contest by @Ottawatourism 
+2019 Grand Prize Photography Award, Ottawa in Bloom Contest by @Ottawatourism 
+
+
+SKILLS & EXPERTISE 
+	
+	Expertise:
+Team Management · Computer Vision · Image Processing · Machine Learning · Data Structure & Algorithms · Object-Oriented Programming · RDMS (i.e., MSQL, MySQL, Postgres, and SQLite) · Networking · Cloud computing · Web Development/Design · e-Commerce · GIS · Model View Controller architectures. 
+
+Markup & Programming languages:
+C++ · C · Python · Java · C# · PHP · R · Matlab · JavaScript · Prolog · Perl · Bash · HTML 5 · XML · CSS 3
+
+Management & Development Tools:
+Asana  · Jira  · Slack  · Microsoft Teams  · OpenCV · Microsoft Azure Platform   · AWS · Visual Studio · XCode  · MinIO  · VSCode · Jupiter Labs · Docker Images · Kubernetes  ·  GitLab  · GitHub · make · jQuery · LATEX ··Adobe CSS Photography Suit  · Microsoft Oﬃce Tools  
+
+
+PUBLICATIONS
+1.	2016 - Matej Kristan, Andrés Solís Montero et al. The Visual Object Tracking VOT2016 Challenge Results. The European Conference on Computer Vision (ECCV) Workshops, Springer, 2016.
+2.	2016 - Matej Kristan, Andrés Solís Montero et al. The Thermal Infrared Visual Object Tracking VOT-TIR2016 Challenge Results. The European Conference on Computer Vision (ECCV) Workshops, Springer, 2016. 
+3.	2015 -  Andrés Solís Montero, Jochen Lang, Robert Laganiere. Scalable Kernel Correlation Filter With Sparse Feature Integration. The IEEE International Conference on Computer Vision (ICCV 2015), VOT Challenge, pages 24-31, Dec. 2015. 
+4.	2015 - Matej Kristan, Andrés Solís Montero et al. The Visual Object Tracking VOT2015 Challenge Results. The IEEE International Conference on Computer Vision (ICCV) Workshops, pages 1-23, Dec. 2015. 
+5.	2015 - Michael Felsb erg, Andrés Solís Montero et al. The Thermal Infrared Visual Object Tracking VOT-TIR2015 Challenge Results. The IEEE International Conference on Computer Vision (ICCV) Workshops, pages 76-88, Dec. 2015. 
+6.	2015 - Andrés Solís Montero, Jochen Lang, Robert Laganiere. A General Framework for Fast 2015 3D Object Detection and Localization Using an Uncalibrated Camera. IEEE Winter Conference on Applications of Computer Vision (WACV 2015), pages 884-891, Jan. 2015. 
+7.	2012 - Andrés Solís Montero, Hicham Sekkati, Jochen Lang, Robert Laganiere, Jeremy James. 2012 Framework for Natural Landmark-based Robot Localization. Proceedings of the 9th International Conference on Computer and Robot Vision (CRV), pages 131-138, April 2012. 
+8.	2012 - Andrés Solís Montero, Jochen Lang. Skeleton pruning by contour approximation and the integer medial axis transform. Computers & Graphics, 36(5), pages 477-487, March 2012. 
+9.	2010 - Milos Stojmenovic, Andres Solis Montero, Amiya Nayak. Colour and texture based pyramidal image segmentation. IEEE International Conference on Audio Language and Image Processing (ICALIP), pages 778-786, Nov. 2010. 
+10.	2010 - Andres Solis Montero, Milos Stojmenovic, Amiya Nayak. Robust detection of corners and corner-line links in images. IEEE 10th International Conference on Computer and Information Technology (CIT), pages 495-502, Jun. 2010. 
+11.	2010 - Milos Stojmenovic, Andres Solis Montero, Amiya Nayak. Co-parent selection for fast region merging in pyramidal image segmentation. IEEE 2nd International Conference on Image Processing Theory Tools and Applications (IPTA), pages 243-248, July 2010. 
+12.	2009 - Andres Solis Montero, Amiya Nayak, Milos Stojmenovic, Nejib Zaguia. Robust Line 2 Extraction Based on Repeated Segment Directions on Image Contours. IEEE Symposium: Computational Intelligence for Security and Defence Applications (CISDA), pages 1-7, July 2009. 
+
+ADDITIONAL INFORMATION
+
+Languages:
+English: Fluent 
+Spanish: Native
+French: Beginner
+
+Nationality: 
+Canadian 
+
+Security Clearances:
+Reliability: expiring 2027
+Secret: expiring 2028
+
+Interest & Hobbies:
+Photography (IG: @asolism), Motorcycle, Dancing, Music, Soccer, Volleyball, Skating, Baseball, Cross-country skiing, Discovering new places and restaurants.
