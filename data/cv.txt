@@ -1,24 +1,24 @@
 OVERVIEW
-Professional Overview:
-A creative leader and senior data scientist with a Ph.D. in Computer Science, specializing
-in Computer Vision, Image Processing, Machine Learning and Deep Learning solutions
-with a solid mathematical, data management, and analytics background. Published
-author with over 1000 citations and technical reviewer for over nine years. My experience
-brings invaluable insight into analyzing, processing, and reporting meaningful reports and
-decisions and visualizing data. I am a versatile researcher with a broad knowledge of
-programming languages, databases, and data structures. I have taught courses in
-computer science, programming languages, and advanced programming concepts for over ten years at the University Level.
+1. Professional Summary:
+A creative leader and lead data scientist with a Ph.D. in Computer Science, specializing in 
+Computer Vision, Image Processing, Machine Learning and Deep Learning solutions with a solid 
+mathematical, data management, and analytics background. Published author with over 1000 citations 
+and technical reviewer for over nine years. My experience brings invaluable insight into analyzing, 
+processing, and reporting meaningful reports and decisions and visualizing data. I am a versatile 
+researcher with a broad knowledge of programming languages, databases, and data structures. I have taught 
+courses in computer science, programming languages, and advanced programming concepts for over ten years 
+at the University Level.
 
-1.	Management and Team Lead
+3.	Management and Team Lead
 
-Over eight years of management experience and team leader who performs and delegates multiple duties while motivating staff, making sound decisions, and working with
-managers and staff at all levels of responsibility. Excellent communication skills with a
-creative mindset. I like encouraging collaborative work environments, stimulating group
-creativity and promoting knowledge sharing. I have extensive experience delivering
-technology products from conception to delivery while allocating resources and timelines
-successfully.
+Over nine years of management experience and team leader who performs and delegates multiple duties while
+motivating staff, making sound decisions, and working with managers and staff at all levels of 
+responsibility. Excellent communication skills with a creative mindset. I like encouraging collaborative
+work environments, stimulating group creativity and promoting knowledge sharing. I have extensive 
+experience delivering technology products from conception to delivery while allocating resources 
+and timelines successfully.
 
-2.	Full-Stack Software Developer & DevOps
+3.	Full-Stack Software Developer & DevOps
 
 Over 15+ years of experience as a full-stack software developer with vast experience in
 Cyber Security, DevOps, and Cloud Native Solutions. A developer who enjoys simplicity
@@ -33,54 +33,103 @@ NoSQL databases, Azure Cloud, Kubernetes, and Containerization (i.e., Docker).
 
 WORK EXPERIENCE
 
-Feb 2020 – Present 
+2023 - Present 
+Statistics Canada, Blank Page Review Team 
+Business Analyst / Lead Data Scientist 
+As a Blank Page Review Business Analyst and Team Lead Data Scientist, 
+I am responsible for spearheading the evaluation and improvement of data 
+operations across StatCan, while also assisting our clients in shaping and 
+revolutionizing data processes within the organization. Through comprehensive program 
+reviews and the implementation of value-driven plans, I strive to enhance efficiency and 
+effectiveness, integrate modern open-source tooling and system solutions, champion ML and data 
+science initiatives, drive automation, build capacity, and align with the One Plan strategy. 
+My ultimate goal is to improve methodologies and processes to propel data program 
+growth and optimize operational processes.
+
+• Lead the evaluation and enhancement of data operations across StatCan, aligning with the One Plan strategy for modernization.
+• Collaborate with stakeholders to understand business requirements and shape data processes accordingly.
+• Develop and implement value-driven plans to enhance efficiency, effectiveness, and alignment with organizational objectives.
+• Integrate modern tooling, open-source solutions, and system solutions to optimize data operations and drive automation.
+• Conduct comprehensive program reviews to identify areas for improvement and develop actionable recommendations.
+• Spearhead ML initiatives to extract insights, identify trends, and drive informed decision-making within the organization.
+• Drive capacity building initiatives to empower teams with the necessary skills and knowledge to optimize data processes.
+• Champion the adoption of cutting-edge methodologies and technologies to drive data program growth. Serve as a subject matter expert in data operations, processes, and ML initiatives, providing guidance and support to internal teams and clients.
+• Monitor and evaluate the effectiveness of implemented solutions, making adjustments as necessary to ensure alignment with organizational goals.
+
+
+2020 – 2023
 Statistics Canada, Data Science Division (DScD)
 Lead Data Scientist.
-Technical Lead of several AI projects under the Data Science Division / Product Delivery
-Section for clients such as Public Health Agency of Canada (PHAC), Health Canada
-(HC), and Statistics Canada (StatCan). Working on product delivery, architecture,
-production planning, data pipelines, capacity building, ML modelling, deep learning, and cloud
-integration (i.e., Kubernetes and Microsoft Azure) for the following projects: Cyclops,
-COVID-19 PPE - EPI Model, Frontier Counts, Sedar App, and Hydra.
+Technical and Project Lead of several multi-million projects under the Data Science and Innovation 
+Division / Product Delivery Section for clients such as Public Health Agency of Canada (PHAC), Health Canada (HC), 
+Employment and Social Development Canada (ESD), and internal Statistics Canada (StatCan) divisions.
+
+• Led multiple agile data science and engineers teams, fostering a collaborative environment that increased team efficiency and facilitated the successful development of machine learning models for predictive analytics.
+• Developed and deployed ML operations and data models for predictive analytics, contributing to an increase in accuracy and operational efficiency and a reduced manual labor by 80%. Mostly in the fields of NLP, Information Extraction, and Computer Vision
+• Integrated DevOps principles, establishing CI/CD pipelines that reduced deployment time by 40% and improved overall software reliability. Seamlessly pushing Docker images to container registries, fostering a scalable and efficient deployment strategy.
+• Implemented robust cybersecurity measures within the data science workflow, ensuring compliance with data protection regulations and safeguarding sensitive information.
+• Implemented OpenAuth for secure authentication and authorization of RestAPI and dashboards, fortifying data access and ensuring compliance with security standards.
+• Orchestrated the migration of data science applications to Kubernetes, optimizing resource utilization and scalability while implementing Helm charts for streamlined deployment.
+• Implemented and enforced pre-commit hooks, code review processes, automated static code analysis, enhancing code quality and collaboration within the data science team.
+• Automated testing procedures within the CI/CD and git hook pipelines to guarantee the quality of Java and Python packages before deployment.
+• Designed and maintained interactive visualizations and dashboards using tools such as DJango, Kibana, and Power BI, providing stakeholders with real-time insights into key performance metrics.
+• Implemented automated pipelines for encoding/decoding of big data files using PKCS7, streamlining data transfer processes and enhancing the security of sensitive information.
+• Collaborated with cross-functional teams, providing technical leadership and mentorship to foster a culture of continuous learning and innovation.
+• Conducted regular training sessions on data science best practices, DevOps methodologies, and cybersecurity awareness for team members.
+
 
 
 2016 – 2020
 Tempo Analytics Inc. 
 Co-founder, CTO & Project Manager, Research & Development
-Architect, team technical lead in charge of developing a server-client cloud application to deliver the speed of service time statistics for the Quick Service Industry. In charge of conceptualizing and building novel computer vision products using machine learning and deep learning neural networks for customer detection, people re-identification, and metric learning. Allocating resources, tasks and defining timelines and milestones while communicating results to our stockholders and clients. Manage a team of software engineers, Master, and Ph.D. candidates to build the right solutions for our product. Systematically generating progress reports and analytics tools to produce business intelligence for stakeholders and clients.
+Architect, team technical lead in charge of developing a server-client cloud application to deliver the speed of 
+service time statistics for the Quick Service Industry. In charge of conceptualizing and building novel computer vision 
+products using machine learning and deep learning neural networks for customer detection, people re-identification, and
+ metric learning. Allocating resources, tasks and defining timelines and milestones while communicating results to our 
+ stockholders and clients. Manage a team of software engineers, Master, and Ph.D. candidates to build the right solutions 
+ for our product. Systematically generating progress reports and analytics tools to produce business intelligence for stakeholders and clients.
 
 
 2010-2016
 University of Ottawa
 Research Assistant, Computer Vision Software Developer
-Responsible for writing research papers, presenting research findings, and develop computer vision and machine learning software to test and validate the results. Research on shape analysis, object detection and tracking solutions for augmented reality, robot localization, and surveillance applications.
+Responsible for writing research papers, presenting research findings, and develop computer 
+vision and machine learning software to test and validate the results. Research on shape analysis, 
+object detection and tracking solutions for augmented reality, robot localization, and surveillance applications.
 
 
 2011-2012
 Proximify 
 Senior Web Developer 
-Design and development of a javascript engine powering UniWeb and CCV Sync. Proximify is a cloud-based software for academic institutions and grant agencies. Envisioning and building a research network tool for creating and maintaining your Canadian Common CVs.
+Design and development of a javascript engine powering UniWeb and CCV Sync. Proximify is a cloud-based software 
+for academic institutions and grant agencies. Envisioning and building a research network tool for creating and 
+maintaining your Canadian Common CVs.
 
 
 2009-2011
 Hegyi Geomatics International Inc. 
-Design and development of tools for a GIS framework related to the forest industry. In charge of creating Image analysis tools of forest stands using high resolution and Landsat imagery to monitor change, identify problems and perform forecasting. Analysis and visualizations were displayed on top of the NASA WorldWind 3D mapping application.
+Design and development of tools for a GIS framework related to the forest industry. In charge of creating Image analysis
+tools of forest stands using high resolution and Landsat imagery to monitor change, identify problems and perform forecasting. 
+Analysis and visualizations were displayed on top of the NASA WorldWind 3D mapping application.
 
 
 2008-2011
 University of Ottawa
 Research Assistant, Computer Vision Software Developer
-Responsible for writing research papers, presenting research findings, and develop computer vision software to test and validate the results. Research on image processing techniques to extract relevant features from images.
+Responsible for writing research papers, presenting research findings, and develop computer vision software to test and 
+validate the results. Research on image processing techniques to extract relevant features from images.
 
 2006-2008
 Navaera USA LLC 
 Software Developer 
-Creating a web crawler and multi-platform tools for automatic clustering of documents from the web, based on their content and metadata (Java, C\#, and Python).
+Creating a web crawler and multi-platform tools for automatic clustering of documents from the web, based on their 
+content and metadata (Java, C\#, and Python).
 
 2006-2008
 Network Administrator, Software Developer
 University of Havana, Cuba
-IT Team leader for the main building of the University of Havana. Design, development, and validation of network administration tools for user monitoring, domain login, email access, and internet quota management. Provided network support and IT services.
+IT Team leader for the main building of the University of Havana. Design, development, and validation of network administration
+tools for user monitoring, domain login, email access, and internet quota management. Provided network support and IT services.
 
 
 TEACHING EXPERIENCE 
@@ -167,21 +216,21 @@ HONORS & AWARDS
 2006 Magna cum laude graduate as Bachelor in Computer Science
 
 Photography:
-	2019: Best Exterior Photo, First Place, Doors Opens/Portes Ouvertes by City of Ottawa
+2019: Best Exterior Photo, First Place, Doors Opens/Portes Ouvertes by City of Ottawa
 2019: Grand Prize Winner, Canada in One City Photo Contest by @Ottawatourism 
 2019 Grand Prize Photography Award, Ottawa in Bloom Contest by @Ottawatourism 
 
 
 SKILLS & EXPERTISE 
 	
-	Expertise:
-Team Management · Computer Vision · Image Processing · Machine Learning · Data Structure & Algorithms · Object-Oriented Programming · RDMS (i.e., MSQL, MySQL, Postgres, and SQLite) · Networking · Cloud computing · Web Development/Design · e-Commerce · GIS · Model View Controller architectures. 
+Expertise:
+Agile Team Management · Computer Vision ·  Image Processing · Machine Learning · Data Structure & Algorithms · Object-Oriented Programming · RDMS (i.e., MSQL, MySQL, Postgres, and SQLite) · Networking · Cloud computing · Web Development/Design · Infrastucture as Code · e-Commerce · GIS · Model View Controller architectures. 
 
 Markup & Programming languages:
-C++ · C · Python · Java · C# · PHP · R · Matlab · JavaScript · Prolog · Perl · Bash · HTML 5 · XML · CSS 3
+Python · C · C++  · Java · C# · PHP · R · Matlab · JavaScript · Prolog · Perl · Bash · HTML 5 · XML · CSS 3
 
 Management & Development Tools:
-Asana  · Jira  · Slack  · Microsoft Teams  · OpenCV · Microsoft Azure Platform   · AWS · Visual Studio · XCode  · MinIO  · VSCode · Jupiter Labs · Docker Images · Kubernetes  ·  GitLab  · GitHub · make · jQuery · LATEX ··Adobe CSS Photography Suit  · Microsoft Oﬃce Tools  
+Asana  · Jira  · Git{Lab|Hub}  · Slack  ·  OpenCV · Microsoft Azure Platform   · AWS · Visual Studio · XCode  · MinIO  · VSCode · Jupiter Labs · Docker Images · Kubernetes  ·  Microsoft Teams  · make · jQuery · LATEX ··Adobe CSS Photography Suit  · Microsoft Oﬃce Tools  
 
 
 PUBLICATIONS
@@ -213,4 +262,4 @@ Reliability: expiring 2027
 Secret: expiring 2028
 
 Interest & Hobbies:
-Photography (IG: @asolism), Motorcycle, Dancing, Music, Soccer, Volleyball, Skating, Baseball, Cross-country skiing, Discovering new places and restaurants.
+Photography (IG: @asolism), Chess, Motorcycle, Dancing, Music, Soccer, Volleyball, Skating, Baseball, Cross-country skiing, Discovering new places and restaurants.
