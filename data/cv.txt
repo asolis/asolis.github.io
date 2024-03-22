@@ -11,7 +11,7 @@ at the University Level.
 
 3.	Management and Team Lead
 
-Over nine years of management experience and team leader who performs and delegates multiple duties while
+Over eight years of management experience and team leader who performs and delegates multiple duties while
 motivating staff, making sound decisions, and working with managers and staff at all levels of 
 responsibility. Excellent communication skills with a creative mindset. I like encouraging collaborative
 work environments, stimulating group creativity and promoting knowledge sharing. I have extensive 
@@ -230,9 +230,7 @@ Markup & Programming languages:
 Python · C · C++  · Java · C# · PHP · R · Matlab · JavaScript · Prolog · Perl · Bash · HTML 5 · XML · CSS 3
 
 Management & Development Tools:
-Asana  · Jira  · Git{Lab|Hub}  · Slack  ·  OpenCV · Microsoft Azure Platform   · AWS · Visual Studio · XCode  · MinIO  · VSCode · Jupiter Labs · Docker Images · Kubernetes  ·  Microsoft Teams  · make · jQuery · LATEX ··Adobe CSS Photography Suit  · Microsoft Oﬃce Tools  
-
-
+Asana  · Jira  · Git{Lab|Hub}  · Slack  ·  OpenCV · Microsoft Azure Platform   · AWS · Visual Studio · XCode  · MinIO  · VSCode · Jupiter Labs · Docker Images · Kubernetes  ·  Microsoft Teams  · make · jQuery · LATEX ··Adobe CSS Photography Suit  · Microsoft Oﬃce Tools  te
 PUBLICATIONS
 1.	2016 - Matej Kristan, Andrés Solís Montero et al. The Visual Object Tracking VOT2016 Challenge Results. The European Conference on Computer Vision (ECCV) Workshops, Springer, 2016.
 2.	2016 - Matej Kristan, Andrés Solís Montero et al. The Thermal Infrared Visual Object Tracking VOT-TIR2016 Challenge Results. The European Conference on Computer Vision (ECCV) Workshops, Springer, 2016. 
